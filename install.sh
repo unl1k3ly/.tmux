@@ -12,7 +12,7 @@ mkdir -p ~/.tmux/plugins/tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ############################################################################################
-cat <<EOT >>~/.tmux/.tmux.conf.local
+cat <<EOT >>~/.tmux/.tmux.conf
 
 ##################  TPM  ##############################
 # List of plugins
