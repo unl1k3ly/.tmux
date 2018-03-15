@@ -18,6 +18,7 @@ cat <<EOT >>~/.tmux/.tmux.conf
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
 
 # Other examples:
 # set -g @plugin 'github_username/plugin_name'
@@ -30,9 +31,6 @@ run '~/.tmux/plugins/tpm/tpm'
 
 EOT
 ###############################################################################################
-
-# Install tmux-resurrect throught TMP
-echo "set -g @plugin 'tmux-plugins/tmux-resurrect'" >> ~/.tmux/.tmux.conf.local
 
 echo "All done!"
 
