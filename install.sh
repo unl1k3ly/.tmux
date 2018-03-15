@@ -32,6 +32,9 @@ run '~/.tmux/plugins/tpm/tpm'
 EOT
 ###############################################################################################
 
+#Installing Plugins
+~/.tmux/plugins/tpm/bin/install_plugins
+
 echo "All done!"
 
 
